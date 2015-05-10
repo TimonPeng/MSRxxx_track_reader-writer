@@ -57,3 +57,8 @@ r = msr(/dev/cuaU0)
 t1,t2,t3 = r.read_tracks()  
 r.write_tracks(t3=1234567890)  
 r.erase_tracks(t1=True)  
+
+
+####From: https://www.triades.net/msr605-driver.html
+####PDF: https://www.triades.net/downloads/MSR605%20Programmer's%20Manual.pdf
+####Drive on OSX: http://www.prolific.com.tw/UserFiles/files/md_PL2303_MacOSX-10_6up_v1_5_1.zip
